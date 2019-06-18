@@ -13,15 +13,18 @@ public class Main {
     public static void main(String[] args) {
         /**
          * Extract methods under test (MUT) from the program under test.
+         * javaFilesDirectoryPath: the path of java files.
          */
-        String javaFilesDirectoryPath = "/Users/sunweisong/Desktop/Test Recommendation Experimental Data/Programs Under Test/BPT/src/main/java/net/mooctest";
+        String javaFilesDirectoryPath = "******";
         PUTAnalysis.extractMUTFromPUTDirectory(javaFilesDirectoryPath);
 
         /**
-         * Extract test fragments from students' test codes.
+         * Extract test fragments from test codes.
+         * pathOfPUT: the path of the program under test
+         * pathOfTP: the path of the test program
          */
-        String pathOfPUT = "/Users/sunweisong/Desktop/Test Recommendation Experimental Data/Programs Under Test/ALU";
-        String pathOfTP = "/Users/sunweisong/Desktop/Test Recommendation Experimental Data/Test Programs/ALU";
+        String pathOfPUT = "******";
+        String pathOfTP = "******";
         TPAnalysis.extractTestFragmentsFromTestProgram(pathOfPUT, pathOfTP);
     }
 
