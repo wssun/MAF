@@ -7,9 +7,8 @@ The class "com.maf.analysis.PUTAnalysis" provides support for extracting methods
 ### (2) Extract TF
 The class "com.maf.analysis.TPAnalysis" provides support for extracting test fragments (TF) from the test code.
 ### (3) Measure the similarity of TF
-The tool FuzzyWuzzy (github.com/seatgeek/fuzzywuzzy) is utilized to meansure the similarity of test fragments.
+The tool [FuzzyWuzzy](github.com/seatgeek/fuzzywuzzy) is utilized to meansure the similarity of test fragments.
 
 ## Applications of MAF
 ### (1) Test Code Plagiarism Detection
 The paper titled "MAF: Method-Anchored Test Fragmentation for Test Code Plagiarism Detection'' has been published in the Proceedings of the 41st International Conference on Software Engineering: Software Engineering Education and Training (ICSE 2019 - SEET Track). If you are interested in this research, please read our paper or contact us.
-
