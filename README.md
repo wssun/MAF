@@ -6,6 +6,8 @@ MAF is an automated tool which can be used to extract test fragments from non-st
 The class "com.maf.analysis.PUTAnalysis" provides support for extracting methods under test (MUT) from the program under test.
 ### (2) Extract TF
 The class "com.maf.analysis.TPAnalysis" provides support for extracting test fragments (TF) from the test code.
+### (3) Measure the similarity of TF
+The tool FuzzyWuzzy (github.com/seatgeek/fuzzywuzzy) is utilized to meansure the similarity of test fragments.
 
 ## Applications of MAF
 ### (1) Test Code Plagiarism Detection
